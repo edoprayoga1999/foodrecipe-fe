@@ -69,7 +69,7 @@ const Landing = () => {
         <h1 style={style.RightTextContentH1}>{recipe?.data[0]?.title}</h1>
         <div style={style.RightTextContentUnderline}></div>
         <h3 style={style.RightTextContentH3}>A wonderfull food made by love. Check this new recipe!</h3>
-        <Link to={'/detail/' + recipe?.data[0]?.id} target="_blank"><button type="button" style={style.RightTextContentButton}>Learn More</button></Link>
+        <Link to={'/detail/' + recipe?.data[0]?.id}><button type="button" style={style.RightTextContentButton}>Learn More</button></Link>
         </div>
         </div>
         <div style={{ ...style.ArticleMainContentNewPhoto, backgroundImage: "url('" + process.env.REACT_APP_BACKEND_URL + recipe?.data[0]?.photo + "')" }}></div>
