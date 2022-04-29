@@ -30,7 +30,7 @@ const Register = () => {
     e.preventDefault()
     if (form.terms !== true) {
       alert('You must agree terms & conditions')
-    } else if (form.name === '' || form.phone === '' || form.email === '' || form.password === '' || form.photo === '') {
+    } else if (form.name === '' || form.phone === '' || form.email === '' || form.password === '') {
       alert('All field must be filled !')
     } else if (form.password1 !== form.password2) {
       alert('Password not match !, check your input again')
