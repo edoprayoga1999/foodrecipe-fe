@@ -185,7 +185,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Related Sroject
 
-:rocket: [`FoodRecipe Backend`](https://github.com/edoprayoga1999/FoodRecipe-App-Backend)
+:rocket: [`FoodRecipe Backend`](https://github.com/edoprayoga1999/foodrecipe-be)
 
 <!-- CONTACT -->
 ## Contact
