@@ -62,8 +62,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Food Recipe - App is a food recipe application that aims to share recipes with fellow users. Users can see each other's recipes that are shared with each other, add, modify, and delete recipes that they have added.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -128,6 +126,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Screenshot
+
+![Landing Page](./screenshots/landing-page.png "Landing Page")
 
 <!-- CONTRIBUTING -->
 ## Contributing
