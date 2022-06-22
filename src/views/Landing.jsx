@@ -16,7 +16,7 @@ const Landing = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const recipe = useSelector((state) => {
-    return state.recipe
+    return state.latestRecipe
   })
   useEffect(() => {
     dispatch(getLatestRecipe())

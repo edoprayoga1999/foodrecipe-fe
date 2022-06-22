@@ -12,7 +12,7 @@ const EditRecipe = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const recipe = useSelector((state) => {
-    return state.recipe
+    return state.detailRecipe
   })
   const { id } = useParams()
   const [form, setForm] = useState({

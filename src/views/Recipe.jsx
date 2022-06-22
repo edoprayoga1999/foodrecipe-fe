@@ -14,7 +14,7 @@ const Recipe = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const recipe = useSelector((state) => {
-    return state.recipe
+    return state.listRecipe
   })
   const [query] = useSearchParams()
   const search = !query.get('search') ? '' : query.get('search')

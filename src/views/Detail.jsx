@@ -12,7 +12,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons'
 const Detail = () => {
   const dispatch = useDispatch()
   const recipe = useSelector((state) => {
-    return state.recipe
+    return state.detailRecipe
   })
   const { id } = useParams()
   useEffect(() => {

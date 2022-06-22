@@ -6,16 +6,16 @@ const initialState = {
 }
 
 // pending, fulfilled, reject
-const listRecipeReducer = (state = initialState, action) => {
+const latestRecipeReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'GET_LIST_RECIPE_PENDING':
+    case 'GET_LATEST_RECIPE_PENDING':
       return { ...state, isLoading: true, isError: false }
-    case 'GET_LIST_RECIPE_FULFILLED':
+    case 'GET_LATEST_RECIPE_FULFILLED':
       return { ...state, isLoading: false, data: action.payload.data.data }
-    case 'GET_LIST_RECIPE_REJECTED':
+    case 'GET_LATEST_RECIPE_REJECTED':
       return { ...state, isLoading: false, isError: true, errorMessage: action.payload.err }
     default:
       return state
   }
 }
-export default listRecipeReducer
+export default latestRecipeReducer

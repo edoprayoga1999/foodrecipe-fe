@@ -27,7 +27,7 @@ const Profile = () => {
     return state.user
   })
   const recipe = useSelector((state) => {
-    return state.recipe
+    return state.myRecipe
   })
   const [isOpen, setIsOpen] = useState(false)
   const [idRecipe, setidRecipe] = useState('')

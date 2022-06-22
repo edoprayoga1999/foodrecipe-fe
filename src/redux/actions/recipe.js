@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-const token = localStorage.getItem('token')
 export const getLatestRecipe = () => {
   return {
     type: 'GET_LATEST_RECIPE',
@@ -11,6 +10,7 @@ export const getLatestRecipe = () => {
   }
 }
 export const getListRecipe = (searchData, filterType, sort, pageNumber) => {
+  const token = localStorage.getItem('token')
   return {
     type: 'GET_LIST_RECIPE',
     payload: axios({
@@ -23,6 +23,7 @@ export const getListRecipe = (searchData, filterType, sort, pageNumber) => {
   }
 }
 export const getMyRecipe = () => {
+  const token = localStorage.getItem('token')
   return {
     type: 'GET_MY_RECIPE',
     payload: axios({
@@ -35,6 +36,7 @@ export const getMyRecipe = () => {
   }
 }
 export const getDetailRecipe = (recipeId) => {
+  const token = localStorage.getItem('token')
   return {
     type: 'GET_DETAIL_RECIPE',
     payload: axios({
@@ -47,6 +49,7 @@ export const getDetailRecipe = (recipeId) => {
   }
 }
 export const insertRecipe = (data) => {
+  const token = localStorage.getItem('token')
   return new Promise((resolve, reject) => {
     axios.post(process.env.REACT_APP_BACKEND_URL + 'insert/recipe', data, {
       headers: {
@@ -63,6 +66,7 @@ export const insertRecipe = (data) => {
   })
 }
 export const editRecipe = (data, id) => {
+  const token = localStorage.getItem('token')
   return new Promise((resolve, reject) => {
     axios.put(process.env.REACT_APP_BACKEND_URL + 'edit/recipe/' + id, data, {
       headers: {
@@ -79,6 +83,7 @@ export const editRecipe = (data, id) => {
   })
 }
 export const deleteRecipe = (id) => {
+  const token = localStorage.getItem('token')
   return new Promise((resolve, reject) => {
     axios.delete(process.env.REACT_APP_BACKEND_URL + 'delete/recipe/' + id, {
       headers: {
