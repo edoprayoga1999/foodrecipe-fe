@@ -128,7 +128,38 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Screenshot
 
-![Landing Page](./screenshots/landing-page.png "Landing Page")
+<p align="center" display=flex>
+<table>
+  
+  <tr>
+    <td><image src="screenshots/login-page.png" alt="Login Page" width=100%></td>
+    <td><image src="screenshots/register-page.png" alt="Register Page" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Login Page</td>
+    <td>Register Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="screenshots/landing-page.png" alt="Landing Page" width=100%></td>
+    <td><image src="screenshots/detail-recipe-page.png" alt="Detail Recipe Page" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>Detail Recipe Page</td>
+  </tr>
+
+  <tr>
+    <td><image src="screenshots/search-recipe-page.png" alt="Search Recipe Page" width=100%></td>
+    <td><image src="screenshots/my-profile-page.png" alt="My Profile Page" width=100%></td>
+  </tr>
+  <tr>
+      <td>Search Recipe Page</td>
+      <td>My Profile Page</td>
+  </tr>
+  
+</table>
+</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
