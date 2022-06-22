@@ -73,7 +73,7 @@ This application is built with the following technologies:
 * [CSS](https://developer.mozilla.org/id/docs/Web/CSS)
 * [React.js](https://reactjs.org/)
 * [Axios](https://axios-http.com)
-* [Redux](https://axios-http.com)
+* [Redux](https://redux.js.org/)
 * [Bootstrap](https://getbootstrap.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
