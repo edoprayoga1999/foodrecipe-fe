@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/edoprayoga1999/foodrecipe-fe/">
+    <img src="screenshots/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">FoodRecipe - App</h3>
 
-## Available Scripts
+  <p align="center">
+    Share your awesome recipe here!
+    <br />
+    <a href="https://github.com/edoprayoga1999/foodrecipe-fe/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://foodrecipe-mama.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/edoprayoga1999/foodrecipe-fe/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/edoprayoga1999/foodrecipe-fe/issues">Request Feature</a>
+    <br />
+    <p align="center">
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/react"></a>
+    <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/axios"></a>
+    <a href="https://redux.js.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/redux"></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/bootstrap"></a>
+    <img src="">
+    </p>
+  </p>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-### `npm run build`
+Food Recipe - App is a food recipe application that aims to share recipes with fellow users. Users can see each other's recipes that are shared with each other, add, modify, and delete recipes that they have added.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This application is built with the following technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [Javascript](https://www.javascript.com/)
+* [CSS](https://developer.mozilla.org/id/docs/Web/CSS)
+* [React.js](https://reactjs.org/)
+* [Axios](https://axios-http.com)
+* [Redux](https://axios-http.com)
+* [Bootstrap](https://getbootstrap.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To set up this project locally and get a local copy up, follow thes simple steps.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Things that you need to run this application
+* Node.js
+  
+### Installation
 
-### Analyzing the Bundle Size
+1. Clone this front-end repository
+   ```sh
+   git clone https://github.com/edoprayoga1999/foodrecipe-fe.git
+   ```
+2. Go to repo local folder
+   ```sh
+   cd foodrecipe-fe
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Setup your env , based on env.example
+   ```
+   REACT_APP_BACKEND_URL= 
+   ```
+5. Run your app
+   ```
+   npm run start
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-### Advanced Configuration
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- CONTRIBUTING -->
+## Contributing
 
-### `npm run build` fails to minify
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Related Sroject
+
+:rocket: [`FoodRecipe Backend`](https://github.com/edoprayoga1999/FoodRecipe-App-Backend)
+
+<!-- CONTACT -->
+## Contact
+
+Edo Prayoga - [fb.me/edoprayoga1999](https://facebook.com/edoprayoga1999) - edoprayoga.se@gmail.com
+
+Project Link: [https://github.com/edoprayoga1999/foodrecipe-fe](https://github.com/edoprayoga1999/foodrecipe-fe)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
