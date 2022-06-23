@@ -25,7 +25,7 @@
     <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/axios"></a>
     <a href="https://redux.js.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/redux"></a>
     <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/bootstrap"></a>
-    <img src="https://img.shields.io/github/license/edoprayoga1999/foodrecipe-fe">
+    <img src="https://img.shields.io/github/license/edoprayoga1999/foodrecipe-fe?color=informational">
     </p>
   </p>
 </div>
