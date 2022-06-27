@@ -21,11 +21,11 @@
     <a href="https://github.com/edoprayoga1999/foodrecipe-fe/issues">Request Feature</a>
     <br />
     <p align="center">
-    <a href="https://reactjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/react?color=EFC81A"></a>
-    <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/axios?color=EFC81A"></a>
-    <a href="https://redux.js.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/redux?color=EFC81A"></a>
-    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/bootstrap?color=EFC81A"></a>
-    <img src="https://img.shields.io/github/license/edoprayoga1999/foodrecipe-fe?color=EFC81A">
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/react?color=orange"></a>
+    <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/axios?color=orange"></a>
+    <a href="https://redux.js.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/redux?color=orange"></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/bootstrap?color=orange"></a>
+    <img src="https://img.shields.io/github/license/edoprayoga1999/foodrecipe-fe?color=orange">
     </p>
   </p>
 </div>
