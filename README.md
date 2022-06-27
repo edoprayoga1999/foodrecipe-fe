@@ -21,7 +21,7 @@
     <a href="https://github.com/edoprayoga1999/foodrecipe-fe/issues">Request Feature</a>
     <br />
     <p align="center">
-    <a href="https://reactjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/react"></a>
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/react?color=orange"></a>
     <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/axios"></a>
     <a href="https://redux.js.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/redux"></a>
     <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/foodrecipe-fe/bootstrap"></a>
